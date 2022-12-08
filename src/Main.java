@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Book FightClub = new Book("FightClub", 1996, "Chuck Palahniuk");
+        Book FightClub = new Book("Fight Club", 1996, "Chuck Palahniuk");
         System.out.println(FightClub);
         FightClub.setYear(1999);
         System.out.println("Новый год публикации книги: " + FightClub.getYear());
